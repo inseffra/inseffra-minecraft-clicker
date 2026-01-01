@@ -1,6 +1,7 @@
 {
   "version": "2.1.0",
   "download_url": "https://github.com/inseffra/inseffra/releases/latest",
-  "changelog": "deneme",
-  "required": false
+  "changelog": "Bug fixes",
+  "changelog_en": "Bug fixes and improvements",
+  "changelog_tr": "Hata düzeltmeleri ve iyileştirmeler"
 }
