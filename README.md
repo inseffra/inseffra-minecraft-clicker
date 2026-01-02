@@ -4,7 +4,7 @@
 
 ### Advanced Minecraft Macro Tool for PvP
 
-[![Version](https://img.shields.io/badge/version-2.0.0-purple.svg)](https://github.com/inseffra/inseffra/releases)
+[![Version](https://img.shields.io/badge/version-2.1.0-purple.svg)](https://github.com/inseffra/inseffra/releases)
 [![Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue.svg)](https://github.com/inseffra/inseffra/releases)
 [![Downloads](https://img.shields.io/github/downloads/inseffra/inseffra/total?color=purple)](https://github.com/inseffra/inseffra/releases)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
