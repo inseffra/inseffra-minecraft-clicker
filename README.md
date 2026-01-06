@@ -113,7 +113,7 @@ Stay safe during screen shares! Inseffra is **completely invisible** to:
 
 | Platform | Score | Link |
 |----------|-------|------|
-| Tria.ge | **3/10** (Likely Benign) | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
+| Tria.ge | **6/10** (Normal for autoclickers) | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
 | Hybrid Analysis | Full behavior analysis | [View Report](https://hybrid-analysis.com/sample/3908b6950ddd8845c46c4c9c56696ce65773943819c602cd203ab209c713a471) |
 
 ### Why some AV flag this? (Detailed Explanation)
