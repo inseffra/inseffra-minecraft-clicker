@@ -4,7 +4,7 @@
 
 ### Advanced Minecraft Macro Tool for PvP
 
-[![Version](https://img.shields.io/badge/version-2.1.0-purple.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
+[![Version](https://img.shields.io/badge/version-2.1.1-purple.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![Windows](https://img.shields.io/badge/platform-Windows%2010%2F11-blue.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![Downloads](https://img.shields.io/github/downloads/inseffra/inseffra-minecraft-clicker/total?color=purple)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
@@ -86,8 +86,8 @@ Stay safe during screen shares! Inseffra is **completely invisible** to:
 
 | Server | Status |
 |--------|--------|
-| Craftrise | ✅ Works |
-| Sonoyuncu | ✅ Works |
+| Craftrise | ✅ Tested |
+| Sonoyuncu | ✅ Tested |
 | Hypixel | ⚠️ Use carefully |
 | Lunar Client | ✅ Works |
 | Badlion Client | ✅ Works |
@@ -113,7 +113,7 @@ Stay safe during screen shares! Inseffra is **completely invisible** to:
 
 | Platform | Score | Link |
 |----------|-------|------|
-| Tria.ge | **6/10** (Normal for autoclickers) | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
+| Tria.ge | **6/10** (Likely Benign) | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
 | Hybrid Analysis | Full behavior analysis | [View Report](https://hybrid-analysis.com/sample/3908b6950ddd8845c46c4c9c56696ce65773943819c602cd203ab209c713a471) |
 
 ### Why some AV flag this? (Detailed Explanation)
@@ -146,8 +146,8 @@ Stay safe during screen shares! Inseffra is **completely invisible** to:
 ## 📸 Screenshots
 
 <div align="center">
-<img src="assets/screenshot-clickerr.png" width="400" alt="Clicker Tab"/>
-<img src="assets/screenshot-settingss.png" width="400" alt="Settings Tab"/>
+<img src="assets/screenshot-clicker.png" width="400" alt="Clicker Tab"/>
+<img src="assets/screenshot-settings.png" width="400" alt="Settings Tab"/>
 </div>
 
 ---
@@ -189,7 +189,11 @@ All features can be bound to custom hotkeys including:
 
 ## 📝 Changelog
 
-### v2.1.0 - Latest
+### v2.1.1 - Latest
+- 🔒 Hide Tray icon
+- 🐛 Fixed Only in Focus
+
+### v2.1.0
 - ✨ AutoText feature (send messages with hotkey)
 - 🔊 Click sounds now embedded in exe
 - 🛡️ Anti-tamper protection
@@ -209,8 +213,8 @@ All features can be bound to custom hotkeys including:
 
 Love Inseffra? Consider supporting development!
 
-<a href="https://buymeacoffee.com/inseffra">
-  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+<a href="https://ko-fi.com/inseffra">
+  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
 </a>
 
 ---
