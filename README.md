@@ -165,7 +165,6 @@ All features support custom keybinds including:
 **v2.1.0**
 - AutoText messaging system
 - Embedded click sounds
-- Anti-tamper protection
 
 **v2.0.0**
 - Complete C++ rewrite
