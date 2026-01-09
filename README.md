@@ -1,127 +1,183 @@
-# Inseffra2 - High Performance Desktop Automation Tool
+<div align="center">
+
+# Inseffra
+
+**Advanced Minecraft Automation Tool**
+
+[![Version](https://img.shields.io/badge/version-2.2.0-7B68EE.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
+[![Downloads](https://img.shields.io/github/downloads/inseffra/inseffra-minecraft-clicker/total?color=7B68EE)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
+
+[**Download**](https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest) • [Features](#features) • [Security](#security-analysis) • [Documentation](#documentation)
+
+</div>
+
+---
 
 ## Overview
-Inseffra2 is a complete C++20 port of the original Python-based Inseffra tool. It provides significant performance improvements with lower CPU usage and sub-millisecond timing precision.
+
+Inseffra is a high-performance desktop automation tool designed for Minecraft PvP. Built with modern C++ and optimized for minimal resource usage, it provides advanced macro capabilities while maintaining undetectability.
+
+**Key Highlights:**
+- Native C++ implementation for optimal performance
+- Stream-proof rendering (invisible to screen capture software)
+- Multi-language support (English, Turkish)
+- Comprehensive safety features
+- Analytics dashboard integration
+
+---
 
 ## Features
-- **Native C++20 Performance**: Compiled to native machine code for maximum efficiency
-- **ImGui + DirectX 11 GUI**: Smooth, responsive user interface
-- **Low Latency Input**: Uses Windows `SendInput` API for precise input simulation
-- **JSON Configuration**: Easy-to-edit settings file
-- **All Original Modules**: LeftClicker, RightClicker, SprintReset, Strafing, AntiAFK
 
-## Building
+### Clicker Systems
 
-### Prerequisites
-- **CMake 3.20+**
-- **Visual Studio 2019/2022** with C++ workload
-- **Windows 10/11 SDK**
+**Left Clicker**
+- Configurable CPS (1-40) with randomization
+- Block-hit automation
+- Mouse shake simulation
+- Multiple click patterns (Basic, Butterfly, Jitter)
+- Break blocks mode
+- Hold mode support
 
-### Build Steps
+**Right Clicker**
+- Fast bridging optimization
+- Eating mode support
+- Auto slot switching
+- Customizable CPS and randomization
 
-1. **Configure the project:**
-   ```powershell
-   cd inseffra2
-   mkdir build
-   cd build
-   cmake .. -G "Visual Studio 17 2022" -A x64
-   ```
+### Movement Features
 
-2. **Build the project:**
-   ```powershell
-   cmake --build . --config Release
-   ```
+**Auto Sprint** - Automatic sprint activation when moving forward  
+**Sprint Reset** - W-Tap or S-Tap for enhanced knockback  
+**Strafing** - Automated A/D movement on attack
 
-3. **Run the executable:**
-   ```powershell
-   .\Release\Inseffra2.exe
-   ```
+### Utility
 
-## Project Structure
+**AutoText** - Hotkey-triggered message sending  
+**Anti-AFK** - Automated movement to prevent kick  
+**Click Sounds** - Realistic mouse audio (7 different mice)  
+**Custom Hotkeys** - Full keybind customization  
+**Analytics Dashboard** - Real-time usage statistics
 
-```
-inseffra2/
-├── CMakeLists.txt          # Build configuration
-├── README.md               # This file
-├── include/
-│   ├── config.h            # Application constants
-│   ├── clicker.h           # Clicker module header
-│   ├── overlay.h           # GUI overlay header
-│   ├── settings.h          # Settings manager header
-│   ├── input.h             # Input handler header
-│   └── stb_image.h         # Image loading (stub)
-├── src/
-│   ├── main.cpp            # Entry point
-│   ├── clicker.cpp         # Click automation logic
-│   ├── overlay.cpp         # ImGui GUI implementation
-│   ├── settings.cpp        # JSON config system
-│   └── input.cpp           # Window/input monitoring
-└── assets/
-    └── options.json        # Default configuration
-```
+### Privacy & Safety
 
-## Modules
+**Stream Proof** - Invisible to Discord, OBS, Teams, Zoom, and other capture software  
+**Focus Detection** - Only active when Minecraft window is focused  
+**Menu Pause** - Automatic pause in inventory/chat/ESC menu  
+**Minimize to Tray** - Background operation support
 
-### LeftClicker
-- CPS (Clicks Per Second): 1-40
-- Randomization: 0-10
-- Shake Effect: 0-10 pixels
-- Blockhit Chance: 0-100%
-- Click Patterns: Basic, Butterfly, Jitter
-- Options: Hold Leftclick, Break Blocks
+---
 
-### RightClicker
-- CPS: 1-40
-- Randomization: 0-10
-- Shake Effect: 0-10 pixels
-- Options: Hold Rightclick, Allow Eating
+## Compatibility
 
-### SprintReset
-- Delay: 0.01-1.0 seconds
-- Randomization: 0.00-0.20 seconds
-- Hold Time: 0.00-0.50 seconds
-- Modes: W-Tap, S-Tap, Crouch
+**Tested Environments:**
+- Craftrise, Sonoyuncu (Full compatibility)
+- Hypixel (Use with caution)
+- Vanilla, Lunar Client, Badlion Client (Full compatibility)
 
-### Strafing
-- Delay: 0.01-1.0 seconds
-- Randomization: 0.00-0.20 seconds
-- Hold Time: 0.00-0.50 seconds
-- Option: Random Direction
+**System Requirements:**
+- Windows 10/11 (64-bit)
+- 10MB disk space
+- No additional dependencies required
 
-### AntiAFK
-- Timer: 1-120 seconds
-- Randomization: 1-20 seconds
+---
 
-## Technical Details
+## Installation
 
-### Input Simulation
-Uses the standard Windows `SendInput` API which is:
-- ✅ Safe and legal
-- ✅ Works with all applications
-- ✅ No memory injection
-- ✅ No driver installation required
+1. Download `Inseffra.exe` from [Releases](https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest)
+2. Run the executable (no installation needed)
+3. Configure settings and hotkeys
 
-### Timing Precision
-Uses `std::chrono` high-resolution clock for precise timing:
-- Microsecond-level accuracy
-- Thread-based non-blocking design
-- Minimal CPU overhead
+**Note:** Windows Defender may flag the application due to autoclicker behavior patterns. This is a false positive. Click "More info" → "Run anyway" or add an exclusion.
 
-### Window Detection
-Automatically detects Minecraft and variants:
-- java.exe / javaw.exe
-- Lunar Client
-- Badlion Client
-- LabyMod
-- Feather Client
-- PvPLounge
-- Salwyrr
+---
+
+## Security Analysis
+
+Inseffra uses standard Windows APIs for input simulation and is frequently flagged by heuristic antivirus engines. All detections are false positives.
+
+### Independent Sandbox Analysis
+
+| Platform | Result | Report |
+|----------|--------|--------|
+| Tria.ge | 6/10 - Likely Benign | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
+| Hybrid Analysis | Full Behavioral Analysis | [View Report](https://hybrid-analysis.com/sample/3908b6950ddd8845c46c4c9c56696ce65773943819c602cd203ab209c713a471) |
+
+### Detection Explanations
+
+| Detection | Reason |
+|-----------|--------|
+| Keyboard/Mouse simulation | Uses `SendInput` and `mouse_event` Windows APIs - core autoclicker functionality |
+| Hotkey detection | Uses `GetAsyncKeyState` to detect configured hotkeys - does not log keystrokes |
+| Clipboard access | AutoText feature uses clipboard for faster message sending |
+| Screen capture API | Stream Proof uses `SetWindowDisplayAffinity` to hide from capture software |
+| Network connection | Update checker connects to `raw.githubusercontent.com` and anonymous analytics to `supabase.co` |
+| Sleep calls | CPS timing requires precise delays between clicks |
+| Unsigned binary | Code signing certificates cost $200-400/year - absence does not indicate malware |
+
+### Actual Behavior
+
+**Network:** GitHub (updates), Supabase (anonymous analytics)  
+**File System:** `%LOCALAPPDATA%\Inseffra\options.json` only  
+**Privacy:** No personal data collection  
+**Processes:** Single-process application, no injection  
+**Registry:** No modifications  
+**Startup:** Does not auto-start with Windows
+
+---
+
+## Documentation
+
+### Click Sounds
+
+Available audio profiles:
+- Logitech G303, G502, G Pro
+- Bloody, Razer, Glorious, Zowie
+
+### Hotkey Configuration
+
+All features support custom keybinds including:
+- Standard keys (A-Z, 0-9, F1-F12)
+- Mouse buttons (Mouse4, Mouse5)
+- Modifiers (Shift, Ctrl, Alt)
+
+---
+
+## Changelog
+
+**v2.2.0** - Current Release
+- Movement Features: Auto Sprint, Sprint Reset (W-Tap/S-Tap), Strafing
+- Auto Slot Switch for right-click automation
+- Analytics Dashboard integration
+- Enhanced Turkish localization
+
+**v2.1.1**
+- Tray icon hiding
+- Focus detection fixes
+
+**v2.1.0**
+- AutoText messaging system
+- Embedded click sounds
+- Anti-tamper protection
+
+**v2.0.0**
+- Complete C++ rewrite
+- Stream Proof implementation
+- Modern ImGui interface
+- Multi-language support
+
+---
 
 ## License
-This software is for educational and accessibility testing purposes only.
 
-## Credits
-- Original Python version: effra
-- C++ Port: Based on the original Inseffra architecture
-- GUI: Dear ImGui by ocornut
-- JSON: nlohmann/json library
+Proprietary software. All rights reserved.  
+Unauthorized distribution, modification, or reverse engineering is prohibited.
+
+---
+
+<div align="center">
+
+**Made by effra**
+
+</div>
