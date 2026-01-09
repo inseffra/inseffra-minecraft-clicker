@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
-  "changelog": "v2.2.0 - Movement Features & Auto Slot Switch",
-  "changelog_en": "Added Movement tab (Auto Sprint, Sprint Reset, Strafing), Auto Slot Switch feature.",
-  "changelog_tr": "Movement sekmesi eklendi (Auto Sprint, Sprint Reset, Strafing), Auto Slot Switch özelliği.",
+  "changelog": "v2.2.1 - Critical Bug Fix",
+  "changelog_en": "Fixed: Movement features (Strafing/Sprint Reset) now only activate when Left Clicker trigger key is pressed.",
+  "changelog_tr": "Düzeltildi: Movement özellikleri (Strafing/Sprint Reset) artık sadece Left Clicker trigger key'ine basıldığında aktif oluyor.",
   "required": false
 }
