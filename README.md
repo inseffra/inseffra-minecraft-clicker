@@ -147,7 +147,7 @@ All features support custom keybinds including:
 
 <div align="center">
 <img src="assets/screenshot-movement.png" width="45%" alt="Movement Features"/>
-<img src="assets/screenshot-setingsss.png" width="45%" alt="Settings Interface"/>
+<img src="assets/screenshot-settingsss.png" width="45%" alt="Settings Interface"/>
 </div>
 
 ---
