@@ -1,8 +1,8 @@
 {
-  "version": "2.2.2",
+  "version": "2.2.3",
   "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
-  "changelog": "v2.2.2 - Added Toggle Keybinding Support",
-  "changelog_en": "Added new keybinding options for toggling features on/off.",
-  "changelog_tr": "Özellikleri açıp kapatmak için yeni tuş atama seçenekleri eklendi.",
+  "changelog": "v2.2.3 - Added Rod Macro Feature",
+  "changelog_en": "Added Rod Macro for PvP.",
+  "changelog_tr": "Olta makrosu eklendi.",
   "required": false
 }
