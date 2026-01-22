@@ -1,8 +1,8 @@
 {
-  "version": "2.2.3",
+  "version": "2.2.4",
   "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
-  "changelog": "v2.2.3 - Added Rod Macro Feature",
-  "changelog_en": "Added Rod Macro for PvP.",
-  "changelog_tr": "Olta makrosu eklendi.",
+  "changelog": "v2.2.4 - Added Pot Macro, Fixed Rod Macro",
+  "changelog_en": "Added Pot Macro for throwing potions. Fixed Rod Macro.",
+  "changelog_tr": "Pot atma makrosu eklendi. Olta makrosu düzeltildi.",
   "required": false
 }
