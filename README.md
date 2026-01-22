@@ -4,7 +4,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-[![Version](https://img.shields.io/badge/version-2.2.3-7B68EE.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
+[![Version](https://img.shields.io/badge/version-2.2.4-7B68EE.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![Downloads](https://img.shields.io/github/downloads/inseffra/inseffra-minecraft-clicker/total?color=7B68EE)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
@@ -149,28 +149,6 @@ All features support custom keybinds including:
 <img src="assets/screenshot-movement.png" width="45%" alt="Movement Features"/>
 <img src="assets/screenshot-settingsss.png" width="45%" alt="Settings Interface"/>
 </div>
-
----
-
-## Changelog
-
-**v2.2.0** - Current Release
-- Movement Features: Auto Sprint, Sprint Reset (W-Tap/S-Tap), Strafing
-- Auto Slot Switch for right-click automation
-
-**v2.1.1**
-- Tray icon hiding
-- Focus detection fixes
-
-**v2.1.0**
-- AutoText messaging system
-- Embedded click sounds
-
-**v2.0.0**
-- Complete C++ rewrite
-- Stream Proof implementation
-- Modern ImGui interface
-- Multi-language support
 
 ---
 
