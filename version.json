@@ -1,8 +1,8 @@
 {
-  "version": "2.2.4",
+  "version": "2.2.5",
   "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
-  "changelog": "v2.2.4 - Added Pot Macro, Fixed Rod Macro",
-  "changelog_en": "Added Pot Macro for throwing potions. Fixed Rod Macro.",
-  "changelog_tr": "Pot atma makrosu eklendi. Olta makrosu düzeltildi.",
+  "changelog": "v2.2.5 - Added Bedrock Edition Support.",
+  "changelog_en": "Added Bedrock Edition support.",
+  "changelog_tr": "Bedrock Edition desteği eklendi.",
   "required": false
 }
