@@ -1,8 +1,8 @@
 {
-  "version": "2.2.5",
+  "version": "2.2.6",
   "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
-  "changelog": "v2.2.5 - Added Bedrock Edition Support.",
-  "changelog_en": "Added Bedrock Edition support.",
-  "changelog_tr": "Bedrock Edition desteği eklendi.",
-  "required": false
+  "changelog": "v2.2.6 - Auto Pot Refill improved.",
+  "changelog_en": "Auto Pot Refill improved.",
+  "changelog_tr": "Otomatik Pot Yenileme geliştirildi.",
+  "required": true
 }
