@@ -1,8 +1,8 @@
 {
-    "version": "2.3.0",
-    "download_url": "https://www.inseffra.tr/download/Inseffra.exe",
-    "changelog": "v2.3.0 - HUD, Discord RPC, Keystrokes, Slot Whitelist added.",
-    "changelog_en": "HUD added, Discord RPC added, Keystrokes overlay added. Slot Whitelist added.",
-    "changelog_tr": "HUD eklendi, Discord RPC eklendi, Keystrokes eklendi,Slot Whitelist eklendi.",
-    "required": false
+  "version": "2.2.6",
+  "download_url": "https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest",
+  "changelog": "v2.2.6 - Auto Pot Refill improved.",
+  "changelog_en": "Auto Pot Refill improved.",
+  "changelog_tr": "Otomatik Pot Yenileme geliştirildi.",
+  "required": true
 }
