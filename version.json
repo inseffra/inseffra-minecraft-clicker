@@ -1,6 +1,6 @@
 {
     "version": "2.3.0",
-    "download_url": "https://www.inseffra.tr/download/Inseffra.exe",
+    "download_url": "https://www.inseffra.tr/download",
     "changelog": "v2.3.0 - HUD, Discord RPC, Keystrokes, Slot Whitelist added.",
     "changelog_en": "HUD added, Discord RPC added, Keystrokes overlay added. Slot Whitelist added.",
     "changelog_tr": "HUD eklendi, Discord RPC eklendi, Keystrokes eklendi,Slot Whitelist eklendi.",
