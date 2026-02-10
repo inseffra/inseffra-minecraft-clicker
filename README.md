@@ -6,12 +6,12 @@
 
 [![Version](https://img.shields.io/badge/version-2.3.0-7B68EE.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6.svg)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
-[![Downloads](https://www.inseffra.tr/)
+[![Downloads](https://img.shields.io/github/downloads/inseffra/inseffra-minecraft-clicker/total?color=7B68EE)](https://github.com/inseffra/inseffra-minecraft-clicker/releases)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 
 <img src="assets/previeww.png" alt="Inseffra Preview" width="700"/>
 
-[**Download**](https://www.inseffra.tr/) • [Features](#features) • [Security](#security-analysis) • [Documentation](#documentation)
+[**Download**](https://github.com/inseffra/inseffra-minecraft-clicker/releases/latest) • [Features](#features) • [Security](#security-analysis) • [Documentation](#documentation)
 
 </div>
 
@@ -100,7 +100,8 @@ Inseffra uses standard Windows APIs for input simulation and is frequently flagg
 
 | Platform | Result | Report |
 |----------|--------|--------|
-| Tria.ge | 6/10 - Likely Benign | [View Report](https://tria.ge/260205-yan1fahw8a) |
+| Tria.ge | 6/10 - Likely Benign | [View Report](https://tria.ge/260102-zsgvhssmfs/behavioral1) |
+| Hybrid Analysis | Full Behavioral Analysis | [View Report](https://hybrid-analysis.com/sample/3908b6950ddd8845c46c4c9c56696ce65773943819c602cd203ab209c713a471) |
 
 ### Detection Explanations
 
